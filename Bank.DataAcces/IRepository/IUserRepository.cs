@@ -52,7 +52,7 @@ namespace Bank.DataAcces.IRepository
             conn.Close();
         }
 
-        public static async void Update(int Id, string Name, string Familiya, string BankName, int Shot)
+        public static async void Update()
         {
             conn.Open();
             using(NpgsqlCommand cmd = new NpgsqlCommand("update users set name = 'Abduahad' where name = 'Bekzod'", conn))
