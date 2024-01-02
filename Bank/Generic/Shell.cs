@@ -53,6 +53,7 @@ namespace Bank.Generic
                                     };
 
                                     usersService.Add(users);
+                                    Console.Clear();
                                     Console.WriteLine("Qoshildi !!!");
                                     break;
                                 }
@@ -87,6 +88,29 @@ namespace Bank.Generic
                                         usersService.Delete(Id);
                                         Console.WriteLine("Ochirildi!");
                                         break;
+                                    }
+                                    break;
+                                }
+                            //  Update Function -----------<>
+                            case 4:
+                                {
+                                    Console.WriteLine("Siz Userslarni Update qilish joyidasiz.");
+
+                                    usersService.GetAll();
+                                    Console.WriteLine("\nQaysi userni malummotlarini update qilmoqchisiz.");
+
+                                    string update = Console.ReadLine();
+
+                                    int Id;
+                                    string Name;
+                                    string Familiya;
+                                    string BankName;
+                                    int Shot;
+
+                                    if(update == $"update users Set name = '{Name = Console.ReadLine()}', familiya = '{Familiya = Console.ReadLine()}', bankname = '{BankName = Console.ReadLine()}', shot = '{Shot = int.Parse(Console.ReadLine())}' where Id = {Id = int.Parse(Console.ReadLine())}")
+                                    {
+                                        usersService.Update();
+
                                     }
                                     break;
                                 }
