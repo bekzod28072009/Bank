@@ -10,23 +10,28 @@ namespace Bank.Service.Service
 {
     public class UsersService
     {
+        private readonly UsersRepository repository;
+        public UsersService()
+        {
+            repository = new UsersRepository();
+        }
         public void Add(Users users) 
         {
-            UsersRepository.Add(users);
+            repository.Add(users);
         }
 
         public void GetAll()
         {
-            UsersRepository.GetAll(); 
+            repository.GetAll(); 
         }
 
         public void Delete(int Id) 
         {
-            UsersRepository.Delete(Id);
+            repository.Delete(Id);
         }
         public void Update()
         {
-            UsersRepository.Update();
+            repository.Update();
         }
     }
 }

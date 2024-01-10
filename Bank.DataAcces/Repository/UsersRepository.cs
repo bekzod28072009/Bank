@@ -8,24 +8,24 @@ using System.Threading.Tasks;
 
 namespace Bank.DataAcces.Repository
 {
-    public static class UsersRepository
+    public class UsersRepository
     {
-        public static void  Add(Users users) 
+        public void  Add(Users users) 
         {
             IUserRepository.Insert(users.Id, users.Name, users.Familiya, users.BankName, users.Shot);
         }
 
-        public static void GetAll()
+        public void GetAll()
         {
             IUserRepository.GetAll();
         }
 
-        public static void Delete(int id)
+        public void Delete(int id)
         {
             IUserRepository.Delete(id);
         }
 
-        public static void Update()
+        public void Update()
         {
             IUserRepository.Update();
         }

@@ -10,24 +10,29 @@ namespace Bank.Service.Service
 {
     public class BankService
     {
+        private readonly BankRepository repository;
+        public BankService()
+        {
+            repository = new BankRepository();
+        }
         public void Add(BankNomi bank) 
         {
-            BankRepository.Add(bank);
+            repository.Add(bank);
         }
 
         public void GetAll()
         {
-            BankRepository.GetAll();
+            repository.GetAll();
         }
 
         public void Delete(int Id)
         {
-            BankRepository.Delete(Id);
+            repository.Delete(Id);
         }
 
         public void Update()
         {
-            BankRepository.Update();
+            repository.Update();
         }
     }
 }
