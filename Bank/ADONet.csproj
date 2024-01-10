@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bank.Domain\Bank.Domain.csproj" />
-    <ProjectReference Include="..\Bank.Service\Bank.Service.csproj" />
+    <ProjectReference Include="..\Bank.Domain\ADONet.Domain.csproj" />
+    <ProjectReference Include="..\Bank.Service\ADONet.Service.csproj" />
   </ItemGroup>
 
 </Project>

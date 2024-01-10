@@ -10,6 +10,7 @@ namespace Bank.Generic
 {
     public  class Shell
     {
+        // Trying to build in the Console -----> SQL Shell (psql)
         public static async void Generic()
         {
             UsersService usersService = new UsersService();

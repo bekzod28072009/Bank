@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{9C8E6684-FF74-4B05-8EC9-0AB7FC025756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADONet", "Bank\ADONet.csproj", "{9C8E6684-FF74-4B05-8EC9-0AB7FC025756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Domain", "Bank.Domain\Bank.Domain.csproj", "{79E152BF-065D-4A65-BBC5-A32C3D9DA663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADONet.Domain", "Bank.Domain\ADONet.Domain.csproj", "{79E152BF-065D-4A65-BBC5-A32C3D9DA663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.DataAcces", "Bank.DataAcces\Bank.DataAcces.csproj", "{961C7467-C7AF-40A9-95E4-94B5850EA186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADONet.DataAcces", "Bank.DataAcces\ADONet.DataAcces.csproj", "{961C7467-C7AF-40A9-95E4-94B5850EA186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Service", "Bank.Service\Bank.Service.csproj", "{91014D30-BB84-4F43-A5CB-C31079AF9F84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADONet.Service", "Bank.Service\ADONet.Service.csproj", "{91014D30-BB84-4F43-A5CB-C31079AF9F84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
