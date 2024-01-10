@@ -1,4 +1,4 @@
-[images](https://github.com/bekzod28072009/Bank/assets/142194644/49b63d10-b8c9-48c6-85f3-bc3eaae51e8e)
+![image](https://github.com/bekzod28072009/Bank/assets/142194644/8c25da90-958c-403b-93ae-c968056d3cd3)
 
 Welecome to ADONet project!!!
 In this project you can learn how to create your first strart up adonet project.
