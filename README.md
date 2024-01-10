@@ -1,6 +1,6 @@
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fraima.com%2Fhow-to-create-a-database-using-ado-net%2F&psig=AOvVaw38H9Cjs4ORtxrr3LYuPGZ2&ust=1704987174439000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCyy6yS04MDFQAAAAAdAAAAABAD
-Welecome to ADONet project!!!
+[images](https://github.com/bekzod28072009/Bank/assets/142194644/49b63d10-b8c9-48c6-85f3-bc3eaae51e8e)
 
+Welecome to ADONet project!!!
 In this project you can learn how to create your first strart up adonet project.
 
 Information about project : 
