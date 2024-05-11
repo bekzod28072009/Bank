@@ -12,4 +12,4 @@ Information about project :
 5) The "users" table have 5 models : 1) int Id 2) string FirstName 3) string LastName 4) string BankName 5) int Account Number.
 That is all.
 Thanks for your attention.
-I think this project will be helpful for you to practise your coding!!!
+I think this project will be helpful for you to practise your coding in C# DOTNET!!!
