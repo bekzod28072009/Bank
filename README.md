@@ -17,4 +17,4 @@ Information about project :
   5) int Account Number.
 That is all.
 Thanks for your attention.
-I think this project will be helpful for you to practise your coding in C# .NET!
+I think this project will be helpful for you to practise your coding in C# .Net!
